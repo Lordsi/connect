@@ -1,0 +1,12 @@
+[
+  {
+    "id": "ch-1",
+    "bookId": "book-1",
+    "bookSlug": "echoes-of-the-forgotten",
+    "chapterNumber": 1,
+    "title": "The Empty Mirror",
+    "slug": "the-empty-mirror",
+    "wordCount": 2450,
+    "publishedAt": "2024-01-20"
+  }
+]
