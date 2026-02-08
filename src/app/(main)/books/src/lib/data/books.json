@@ -1,0 +1,41 @@
+[
+  {
+    "id": "book-1",
+    "title": "Echoes of the Forgotten",
+    "slug": "echoes-of-the-forgotten",
+    "description": "In a world where memories can be stolen, one woman must journey through shattered minds to uncover the truth behind her own vanished past.",
+    "coverUrl": "/covers/echoes.jpg",
+    "tags": ["Fantasy", "Mystery", "Adventure"],
+    "genre": "Fantasy",
+    "chapters": 24,
+    "status": "ongoing",
+    "featured": true,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "book-2",
+    "title": "The Last Garden",
+    "slug": "the-last-garden",
+    "description": "A botanist discovers a hidden garden that blooms only under moonlight, and the ancient secrets it guards could save—or destroy—humanity.",
+    "coverUrl": "/covers/garden.jpg",
+    "tags": ["Literary Fiction", "Magical Realism"],
+    "genre": "Literary Fiction",
+    "chapters": 18,
+    "status": "completed",
+    "featured": true,
+    "createdAt": "2023-08-22"
+  },
+  {
+    "id": "book-3",
+    "title": "Silent Protocol",
+    "slug": "silent-protocol",
+    "description": "A cybersecurity analyst uncovers a conspiracy that goes deeper than code. Trust no one. Especially not the ones you love.",
+    "coverUrl": "/covers/silent.jpg",
+    "tags": ["Thriller", "Technothriller"],
+    "genre": "Thriller",
+    "chapters": 32,
+    "status": "ongoing",
+    "featured": false,
+    "createdAt": "2024-02-01"
+  }
+]

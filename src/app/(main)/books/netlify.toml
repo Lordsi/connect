@@ -1,0 +1,12 @@
+# Netlify configuration for Next.js (Auther reading platform)
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Use Netlify's Essential Next.js plugin for SSR, API routes, and ISR
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
