@@ -15,10 +15,8 @@ export async function getBooks(options?: {
   featured?: boolean;
 }): Promise<Book[]> {
   // MVP: import directly; in production, fetch from API
-  const { default: books } = (await import("./data/books.json")) as {
-    default: Book[];
-  };
-  let results: Book[] = Array.isArray(books) ? books : [];
+  const { default: books } = await import("./data/books.json");
+  let results = Array.isArray(books) ? (books as Book[]) : [];
 
   if (options?.genre) {
     results = results.filter((b) => b.genre === options.genre);
